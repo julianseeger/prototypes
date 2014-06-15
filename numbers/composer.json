@@ -1,0 +1,16 @@
+{
+    "name": "julianseeger/numbers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julian Seeger",
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "silex/silex":  "dev-master"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "dev-master"
+    }
+}
