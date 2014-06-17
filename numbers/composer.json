@@ -3,14 +3,18 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Julian Seeger",
+            "name": "Julian Seeger"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-      "silex/silex":  "dev-master"
+      "silex/silex":  "dev-master",
+      "twig/twig":    ">=1.8,<2.0-dev"
     },
     "require-dev": {
       "phpunit/phpunit": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {"Numbers\\": "app/"}
     }
 }

@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-php -S localhost:8000 -t web
+php -S localhost:8000 -t web/public

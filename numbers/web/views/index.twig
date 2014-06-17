@@ -1,0 +1,23 @@
+<a href="/loadmaterial">load material</a>
+{% for project, versions in metricResults %}
+    <h1>{{ project }}</h1>
+    {% for version, files in versions %}
+        <h2>{{ version }}</h2>
+        <table>
+            <tr>
+                <th>Class</th>
+                {% for metricType in metricTypes %}
+                    <th>{{ metricType }}</th>
+                {% endfor %}
+            </tr>
+            {% for file, metricResults in files %}
+                <tr>
+                    <td>{{ file }}</td>
+                    {% for metricType, value in metricResults %}
+                        <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+{% endfor %}
