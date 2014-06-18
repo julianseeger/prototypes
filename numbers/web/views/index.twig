@@ -40,6 +40,9 @@
             {% for project, versions in metricResults %}
                 $(function () {
                     $('#container-{{ project }}').highcharts({
+                        chart: {
+                            type: 'spline'
+                        },
                         title: {
                             text: 'Metric Evolution',
                             x: -20 //center
@@ -82,7 +85,6 @@
                             {% for metricType in metricTypes %}
                             {
                                 name: '{{ metricType }}',
-                                type: 'spline',
                                 yAxis: {{ loop.index0 }},
                                 data: [
                                     {% for version, files in versions %}
