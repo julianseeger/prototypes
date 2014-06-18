@@ -1,23 +1,95 @@
-<a href="/loadmaterial">load material</a>
-{% for project, versions in metricResults %}
-    <h1>{{ project }}</h1>
-    {% for version, files in versions %}
-        <h2>{{ version }}</h2>
-        <table>
-            <tr>
-                <th>Class</th>
-                {% for metricType in metricTypes %}
-                    <th>{{ metricType }}</th>
-                {% endfor %}
-            </tr>
-            {% for file, metricResults in files %}
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    </head>
+    <body>
+        <a href="/loadmaterial">load material</a>
+
+
+        {% for project, versions in metricResults %}
+            <h1>{{ project }}</h1>
+            <h2>Progress</h2>
+
+            <div id="container-{{ project }}" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+            {% set version = versions|keys|last %}
+            {% set files = versions|last %}
+            <h2>{{ version }}</h2>
+            <table>
                 <tr>
-                    <td>{{ file }}</td>
-                    {% for metricType, value in metricResults %}
-                        <td>{{ value }}</td>
+                    <th>Class</th>
+                    {% for metricType in metricTypes %}
+                        <th>{{ metricType }}</th>
                     {% endfor %}
                 </tr>
+                {% for file, metricResults in files %}
+                    <tr>
+                        <td>{{ file }}</td>
+                        {% for metricType, value in metricResults %}
+                            <td>{{ value|number_format(2, '.', ',') }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+        {% endfor %}
+
+        <script>
+            {% for project, versions in metricResults %}
+                $(function () {
+                    $('#container-{{ project }}').highcharts({
+                        title: {
+                            text: 'Metric Evolution',
+                            x: -20 //center
+                        },
+                        subtitle: {
+                            text: 'Project: {{ project }}',
+                            x: -20
+                        },
+                        xAxis: {
+                            categories: [
+                                {% for version in versions|keys %}
+                                    '{{ version }}'{% if not loop.last %},{% endif %}
+                                {% endfor %}
+                            ]
+                        },
+                        yAxis: {
+                            title: {
+                                text: 'Value'
+                            },
+                            plotLines: [{
+                                value: 0,
+                                width: 1,
+                                color: '#808080'
+                            }]
+                        },
+                        tooltip: {
+                            valueSuffix: '°C'
+                        },
+                        legend: {
+                            layout: 'vertical',
+                            align: 'right',
+                            verticalAlign: 'middle',
+                            borderWidth: 0
+                        },
+                        series: [
+                            {% for metricType in metricTypes %}
+                            {
+                                name: '{{ metricType }}',
+                                data: [
+                                    {% for version, files in versions %}
+                                        {{ attribute(files|first, metricType)|number_format(2, '.', ',') }}
+                                        {% if not loop.last %},{% endif %}
+                                    {% endfor %}
+                                ]
+                            }{% if not loop.last %},{% endif %}
+                            {% endfor %}
+                        ]
+                    });
+                });
             {% endfor %}
-        </table>
-    {% endfor %}
-{% endfor %}
+        </script>
+    </body>
+</html>

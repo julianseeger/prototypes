@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1402691128">
+    <project timestamp="1402691128">
+        <package name="Bws\Entity">
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/Article.php">
+                <class name="Article" namespace="Bws\Entity">
+                    <metrics methods="12" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="30" coveredelements="30"/>
+                </class>
+                <line num="47" type="method" name="setEan" crap="1" count="25"/>
+                <line num="49" type="stmt" count="25"/>
+                <line num="51" type="stmt" count="25"/>
+                <line num="59" type="method" name="getEan" crap="1" count="3"/>
+                <line num="61" type="stmt" count="3"/>
+                <line num="70" type="method" name="setTitle" crap="1" count="24"/>
+                <line num="72" type="stmt" count="24"/>
+                <line num="74" type="stmt" count="24"/>
+                <line num="82" type="method" name="getTitle" crap="1" count="4"/>
+                <line num="84" type="stmt" count="4"/>
+                <line num="93" type="method" name="setDescription" crap="1" count="25"/>
+                <line num="95" type="stmt" count="25"/>
+                <line num="97" type="stmt" count="25"/>
+                <line num="105" type="method" name="getDescription" crap="1" count="3"/>
+                <line num="107" type="stmt" count="3"/>
+                <line num="116" type="method" name="setPrice" crap="1" count="24"/>
+                <line num="118" type="stmt" count="24"/>
+                <line num="120" type="stmt" count="24"/>
+                <line num="128" type="method" name="getPrice" crap="1" count="4"/>
+                <line num="130" type="stmt" count="4"/>
+                <line num="139" type="method" name="setImagePath" crap="1" count="24"/>
+                <line num="141" type="stmt" count="24"/>
+                <line num="143" type="stmt" count="24"/>
+                <line num="151" type="method" name="getImagePath" crap="1" count="3"/>
+                <line num="153" type="stmt" count="3"/>
+                <line num="161" type="method" name="getId" crap="1" count="16"/>
+                <line num="163" type="stmt" count="16"/>
+                <line num="169" type="method" name="setId" crap="1" count="24"/>
+                <line num="171" type="stmt" count="24"/>
+                <line num="172" type="stmt" count="24"/>
+                <line num="176" type="stmt" count="1"/>
+                <metrics loc="175" ncloc="91" classes="1" methods="12" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="30" coveredelements="30"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/Basket.php">
+                <class name="Basket" namespace="Bws\Entity">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="4"/>
+                </class>
+                <line num="20" type="method" name="getId" crap="1" count="19"/>
+                <line num="22" type="stmt" count="19"/>
+                <line num="28" type="method" name="setId" crap="1" count="19"/>
+                <line num="30" type="stmt" count="19"/>
+                <line num="31" type="stmt" count="19"/>
+                <line num="33" type="stmt" count="1"/>
+                <metrics loc="32" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="4"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/BasketPosition.php">
+                <class name="BasketPosition" namespace="Bws\Entity">
+                    <metrics methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="23" coveredelements="23"/>
+                </class>
+                <line num="38" type="method" name="setCount" crap="1" count="18"/>
+                <line num="40" type="stmt" count="18"/>
+                <line num="42" type="stmt" count="18"/>
+                <line num="50" type="method" name="getCount" crap="1" count="3"/>
+                <line num="52" type="stmt" count="3"/>
+                <line num="60" type="method" name="increaseCount" crap="1" count="1"/>
+                <line num="62" type="stmt" count="1"/>
+                <line num="64" type="stmt" count="1"/>
+                <line num="72" type="method" name="getId" crap="1" count="18"/>
+                <line num="74" type="stmt" count="18"/>
+                <line num="84" type="method" name="setBasket" crap="1" count="18"/>
+                <line num="86" type="stmt" count="18"/>
+                <line num="88" type="stmt" count="18"/>
+                <line num="96" type="method" name="getBasket" crap="1" count="7"/>
+                <line num="98" type="stmt" count="7"/>
+                <line num="108" type="method" name="setArticle" crap="1" count="18"/>
+                <line num="110" type="stmt" count="18"/>
+                <line num="112" type="stmt" count="18"/>
+                <line num="120" type="method" name="getArticle" crap="1" count="5"/>
+                <line num="122" type="stmt" count="5"/>
+                <line num="128" type="method" name="setId" crap="1" count="18"/>
+                <line num="130" type="stmt" count="18"/>
+                <line num="131" type="stmt" count="18"/>
+                <line num="133" type="stmt" count="1"/>
+                <metrics loc="132" ncloc="68" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="23" coveredelements="23"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/DeliveryAddress.php">
+                <class name="DeliveryAddress" namespace="Bws\Entity">
+                    <metrics methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="27" coveredelements="20"/>
+                </class>
+                <line num="44" type="method" name="setFirstName" crap="1" count="1"/>
+                <line num="46" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <line num="56" type="method" name="getFirstName" crap="1" count="1"/>
+                <line num="58" type="stmt" count="1"/>
+                <line num="67" type="method" name="setLastName" crap="1" count="1"/>
+                <line num="69" type="stmt" count="1"/>
+                <line num="71" type="stmt" count="1"/>
+                <line num="79" type="method" name="getLastName" crap="1" count="1"/>
+                <line num="81" type="stmt" count="1"/>
+                <line num="90" type="method" name="setStreet" crap="1" count="1"/>
+                <line num="92" type="stmt" count="1"/>
+                <line num="94" type="stmt" count="1"/>
+                <line num="102" type="method" name="getStreet" crap="1" count="1"/>
+                <line num="104" type="stmt" count="1"/>
+                <line num="113" type="method" name="setZip" crap="1" count="1"/>
+                <line num="115" type="stmt" count="1"/>
+                <line num="117" type="stmt" count="1"/>
+                <line num="125" type="method" name="getZip" crap="1" count="1"/>
+                <line num="127" type="stmt" count="1"/>
+                <line num="136" type="method" name="setCity" crap="1" count="1"/>
+                <line num="138" type="stmt" count="1"/>
+                <line num="140" type="stmt" count="1"/>
+                <line num="148" type="method" name="getCity" crap="1" count="1"/>
+                <line num="150" type="stmt" count="1"/>
+                <line num="158" type="method" name="getId" crap="1" count="1"/>
+                <line num="160" type="stmt" count="1"/>
+                <metrics loc="162" ncloc="84" classes="1" methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="27" coveredelements="27"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/InvoiceAddress.php">
+                <class name="InvoiceAddress" namespace="Bws\Entity">
+                    <metrics methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="27" coveredelements="27"/>
+                </class>
+                <line num="44" type="method" name="setFirstName" crap="1" count="1"/>
+                <line num="46" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <line num="56" type="method" name="getFirstName" crap="1" count="1"/>
+                <line num="58" type="stmt" count="1"/>
+                <line num="67" type="method" name="setLastName" crap="1" count="1"/>
+                <line num="69" type="stmt" count="1"/>
+                <line num="71" type="stmt" count="1"/>
+                <line num="79" type="method" name="getLastName" crap="1" count="1"/>
+                <line num="81" type="stmt" count="1"/>
+                <line num="90" type="method" name="setStreet" crap="1" count="1"/>
+                <line num="92" type="stmt" count="1"/>
+                <line num="94" type="stmt" count="1"/>
+                <line num="102" type="method" name="getStreet" crap="1" count="1"/>
+                <line num="104" type="stmt" count="1"/>
+                <line num="113" type="method" name="setZip" crap="1" count="1"/>
+                <line num="115" type="stmt" count="1"/>
+                <line num="117" type="stmt" count="1"/>
+                <line num="125" type="method" name="getZip" crap="1" count="1"/>
+                <line num="127" type="stmt" count="1"/>
+                <line num="136" type="method" name="setCity" crap="1" count="1"/>
+                <line num="138" type="stmt" count="1"/>
+                <line num="140" type="stmt" count="1"/>
+                <line num="148" type="method" name="getCity" crap="1" count="1"/>
+                <line num="150" type="stmt" count="1"/>
+                <line num="158" type="method" name="getId" crap="1" count="1"/>
+                <line num="160" type="stmt" count="1"/>
+                <metrics loc="162" ncloc="84" classes="1" methods="11" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="27" coveredelements="27"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/LogisticPartner.php">
+                <class name="LogisticPartner" namespace="Bws\Entity">
+                    <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+                </class>
+                <line num="24" type="method" name="setName" crap="1" count="1"/>
+                <line num="26" type="stmt" count="1"/>
+                <line num="28" type="stmt" count="1"/>
+                <line num="36" type="method" name="getName" crap="1" count="1"/>
+                <line num="38" type="stmt" count="1"/>
+                <line num="46" type="method" name="getId" crap="1" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <metrics loc="50" ncloc="27" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/Order.php">
+                <class name="Order" namespace="Bws\Entity">
+                    <metrics methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="20" coveredelements="20"/>
+                </class>
+                <line num="32" type="method" name="getId" crap="1" count="1"/>
+                <line num="34" type="stmt" count="1"/>
+                <line num="44" type="method" name="setInvoiceAddress" crap="1" count="1"/>
+                <line num="46" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <line num="56" type="method" name="getInvoiceAddress" crap="1" count="1"/>
+                <line num="58" type="stmt" count="1"/>
+                <line num="68" type="method" name="setDeliveryAddress" crap="1" count="1"/>
+                <line num="70" type="stmt" count="1"/>
+                <line num="72" type="stmt" count="1"/>
+                <line num="80" type="method" name="getDeliveryAddress" crap="1" count="1"/>
+                <line num="82" type="stmt" count="1"/>
+                <line num="92" type="method" name="setBasket" crap="1" count="1"/>
+                <line num="94" type="stmt" count="1"/>
+                <line num="96" type="stmt" count="1"/>
+                <line num="104" type="method" name="getBasket" crap="1" count="1"/>
+                <line num="106" type="stmt" count="1"/>
+                <line num="112" type="method" name="setId" crap="1" count="1"/>
+                <line num="114" type="stmt" count="1"/>
+                <line num="115" type="stmt" count="1"/>
+                <metrics loc="116" ncloc="60" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="20" coveredelements="20"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Entity/PaymentMethod.php">
+                <class name="PaymentMethod" namespace="Bws\Entity">
+                    <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+                </class>
+                <line num="22" type="method" name="getId" crap="1" count="1"/>
+                <line num="24" type="stmt" count="1"/>
+                <line num="34" type="method" name="setName" crap="1" count="1"/>
+                <line num="36" type="stmt" count="1"/>
+                <line num="38" type="stmt" count="1"/>
+                <line num="46" type="method" name="getName" crap="1" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <metrics loc="50" ncloc="27" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+            </file>
+        </package>
+        <package name="Bws\Interactor">
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/AddToBasket.php">
+                <class name="AddToBasket" namespace="Bws\Interactor">
+                    <metrics methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="62" coveredstatements="62" elements="72" coveredelements="72"/>
+                </class>
+                <line num="0" type="stmt" count="2"/>
+                <line num="33" type="method" name="__construct" crap="1" count="6"/>
+                <line num="38" type="stmt" count="6"/>
+                <line num="39" type="stmt" count="6"/>
+                <line num="40" type="stmt" count="6"/>
+                <line num="41" type="stmt" count="6"/>
+                <line num="48" type="method" name="execute" crap="3" count="6"/>
+                <line num="50" type="stmt" count="6"/>
+                <line num="51" type="stmt" count="4"/>
+                <line num="54" type="stmt" count="2"/>
+                <line num="56" type="stmt" count="2"/>
+                <line num="57" type="stmt" count="1"/>
+                <line num="60" type="stmt" count="1"/>
+                <line num="68" type="method" name="isRequestValid" crap="4" count="6"/>
+                <line num="70" type="stmt" count="6"/>
+                <line num="71" type="stmt" count="1"/>
+                <line num="74" type="stmt" count="5"/>
+                <line num="75" type="stmt" count="2"/>
+                <line num="78" type="stmt" count="3"/>
+                <line num="79" type="stmt" count="1"/>
+                <line num="82" type="stmt" count="2"/>
+                <line num="88" type="method" name="createAndSaveNewBasket" crap="1" count="1"/>
+                <line num="90" type="stmt" count="1"/>
+                <line num="91" type="stmt" count="1"/>
+                <line num="92" type="stmt" count="1"/>
+                <line num="102" type="method" name="createBasketPosition" crap="1" count="1"/>
+                <line num="104" type="stmt" count="1"/>
+                <line num="105" type="stmt" count="1"/>
+                <line num="106" type="stmt" count="1"/>
+                <line num="107" type="stmt" count="1"/>
+                <line num="108" type="stmt" count="1"/>
+                <line num="116" type="method" name="getBasket" crap="2" count="1"/>
+                <line num="118" type="stmt" count="1"/>
+                <line num="120" type="stmt" count="1"/>
+                <line num="121" type="stmt" count="1"/>
+                <line num="122" type="stmt" count="1"/>
+                <line num="124" type="stmt" count="1"/>
+                <line num="134" type="method" name="addToBasket" crap="1" count="1"/>
+                <line num="136" type="stmt" count="1"/>
+                <line num="137" type="stmt" count="1"/>
+                <line num="138" type="stmt" count="1"/>
+                <line num="139" type="stmt" count="1"/>
+                <line num="140" type="stmt" count="1"/>
+                <line num="141" type="stmt" count="1"/>
+                <line num="143" type="stmt" count="1"/>
+                <line num="144" type="stmt" count="1"/>
+                <line num="145" type="stmt" count="1"/>
+                <line num="146" type="stmt" count="1"/>
+                <line num="147" type="stmt" count="1"/>
+                <line num="149" type="stmt" count="1"/>
+                <line num="159" type="method" name="calculatePositions" crap="4" count="1"/>
+                <line num="166" type="stmt" count="1"/>
+                <line num="167" type="stmt" count="1"/>
+                <line num="168" type="stmt" count="1"/>
+                <line num="170" type="stmt" count="1"/>
+                <line num="171" type="stmt" count="1"/>
+                <line num="172" type="stmt" count="1"/>
+                <line num="173" type="stmt" count="1"/>
+                <line num="174" type="stmt" count="1"/>
+                <line num="176" type="stmt" count="1"/>
+                <line num="177" type="stmt" count="1"/>
+                <line num="178" type="stmt" count="1"/>
+                <line num="179" type="stmt" count="1"/>
+                <line num="189" type="method" name="handleNewArticleIfNeeded" crap="2" count="1"/>
+                <line num="197" type="stmt" count="1"/>
+                <line num="198" type="stmt" count="1"/>
+                <line num="199" type="stmt" count="1"/>
+                <line num="200" type="stmt" count="1"/>
+                <line num="201" type="stmt" count="1"/>
+                <line num="202" type="stmt" count="1"/>
+                <line num="203" type="stmt" count="1"/>
+                <line num="210" type="method" name="isValidCount" crap="2" count="5"/>
+                <line num="212" type="stmt" count="5"/>
+                <metrics loc="214" ncloc="148" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="62" coveredstatements="62" elements="72" coveredelements="72"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/AddToBasketRequest.php">
+                <class name="AddToBasketRequest" namespace="Bws\Interactor">
+                    <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+                </class>
+                <line num="11" type="method" name="__construct" crap="1" count="6"/>
+                <line num="13" type="stmt" count="6"/>
+                <line num="14" type="stmt" count="6"/>
+                <line num="15" type="stmt" count="6"/>
+                <line num="16" type="stmt" count="6"/>
+                <line num="21" type="method" name="getArticleId" crap="1" count="3"/>
+                <line num="23" type="stmt" count="3"/>
+                <line num="29" type="method" name="getCount" crap="1" count="5"/>
+                <line num="31" type="stmt" count="5"/>
+                <line num="37" type="method" name="getBasketId" crap="1" count="6"/>
+                <line num="39" type="stmt" count="6"/>
+                <metrics loc="41" ncloc="32" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/AddToBasketResponse.php">
+                <class name="AddToBasketResponse" namespace="Bws\Interactor">
+                    <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+                </class>
+                <line num="45" type="method" name="__construct" crap="1" count="6"/>
+                <line num="47" type="stmt" count="6"/>
+                <line num="48" type="stmt" count="6"/>
+                <line num="49" type="stmt" count="6"/>
+                <line num="50" type="stmt" count="6"/>
+                <line num="51" type="stmt" count="6"/>
+                <line num="52" type="stmt" count="6"/>
+                <line num="57" type="method" name="getCode" crap="1" count="6"/>
+                <line num="59" type="stmt" count="6"/>
+                <line num="65" type="method" name="getMessage" crap="1" count="1"/>
+                <line num="67" type="stmt" count="1"/>
+                <line num="73" type="method" name="getBasketId" crap="1" count="1"/>
+                <line num="75" type="stmt" count="1"/>
+                <line num="81" type="method" name="getTotal" crap="1" count="1"/>
+                <line num="83" type="stmt" count="1"/>
+                <line num="89" type="method" name="getPosCount" crap="1" count="1"/>
+                <line num="91" type="stmt" count="1"/>
+                <metrics loc="93" ncloc="56" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/ChangeBasket.php">
+                <class name="ChangeBasket" namespace="Bws\Interactor">
+                    <metrics methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="33" elements="40" coveredelements="40"/>
+                </class>
+                <line num="0" type="stmt" count="1"/>
+                <line num="25" type="method" name="__construct" crap="1" count="8"/>
+                <line num="27" type="stmt" count="8"/>
+                <line num="28" type="stmt" count="8"/>
+                <line num="29" type="stmt" count="8"/>
+                <line num="36" type="method" name="execute" crap="4" count="8"/>
+                <line num="38" type="stmt" count="8"/>
+                <line num="39" type="stmt" count="3"/>
+                <line num="42" type="stmt" count="5"/>
+                <line num="44" type="stmt" count="5"/>
+                <line num="45" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="4"/>
+                <line num="50" type="stmt" count="4"/>
+                <line num="51" type="stmt" count="1"/>
+                <line num="54" type="stmt" count="3"/>
+                <line num="62" type="method" name="isRequestValid" crap="4" count="8"/>
+                <line num="64" type="stmt" count="8"/>
+                <line num="65" type="stmt" count="1"/>
+                <line num="68" type="stmt" count="7"/>
+                <line num="69" type="stmt" count="1"/>
+                <line num="72" type="stmt" count="6"/>
+                <line num="73" type="stmt" count="1"/>
+                <line num="76" type="stmt" count="5"/>
+                <line num="83" type="method" name="changeOrRemovePosition" crap="2" count="2"/>
+                <line num="85" type="stmt" count="2"/>
+                <line num="86" type="stmt" count="1"/>
+                <line num="87" type="stmt" count="1"/>
+                <line num="88" type="stmt" count="1"/>
+                <line num="89" type="stmt" count="1"/>
+                <line num="91" type="stmt" count="2"/>
+                <line num="99" type="method" name="isRequestedArticle" crap="1" count="3"/>
+                <line num="101" type="stmt" count="3"/>
+                <line num="109" type="method" name="isBasketEmpty" crap="2" count="4"/>
+                <line num="111" type="stmt" count="4"/>
+                <line num="120" type="method" name="changeBasketPosition" crap="3" count="3"/>
+                <line num="123" type="stmt" count="3"/>
+                <line num="124" type="stmt" count="3"/>
+                <line num="125" type="stmt" count="2"/>
+                <line num="126" type="stmt" count="2"/>
+                <line num="128" type="stmt" count="1"/>
+                <line num="130" type="stmt" count="1"/>
+                <metrics loc="132" ncloc="90" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="33" elements="40" coveredelements="40"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/ChangeBasketRequest.php">
+                <class name="ChangeBasketRequest" namespace="Bws\Interactor">
+                    <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+                </class>
+                <line num="27" type="method" name="__construct" crap="1" count="8"/>
+                <line num="29" type="stmt" count="8"/>
+                <line num="30" type="stmt" count="8"/>
+                <line num="31" type="stmt" count="8"/>
+                <line num="32" type="stmt" count="8"/>
+                <line num="37" type="method" name="getArticleId" crap="1" count="6"/>
+                <line num="39" type="stmt" count="6"/>
+                <line num="45" type="method" name="getBasketId" crap="1" count="8"/>
+                <line num="47" type="stmt" count="8"/>
+                <line num="53" type="method" name="getCount" crap="1" count="7"/>
+                <line num="55" type="stmt" count="7"/>
+                <metrics loc="57" ncloc="34" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/ChangeBasketResponse.php">
+                <class name="ChangeBasketResponse" namespace="Bws\Interactor">
+                    <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+                </class>
+                <line num="29" type="method" name="__construct" crap="1" count="8"/>
+                <line num="31" type="stmt" count="8"/>
+                <line num="32" type="stmt" count="8"/>
+                <line num="33" type="stmt" count="8"/>
+                <line num="38" type="method" name="getCode" crap="1" count="8"/>
+                <line num="40" type="stmt" count="8"/>
+                <line num="46" type="method" name="getMessage" crap="1" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <metrics loc="50" ncloc="34" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentArticle.php">
+                <class name="PresentArticle" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+                </class>
+                <line num="14" type="method" name="__construct" crap="1" count="2"/>
+                <line num="16" type="stmt" count="2"/>
+                <line num="17" type="stmt" count="2"/>
+                <line num="19" type="method" name="execute" crap="2" count="2"/>
+                <line num="21" type="stmt" count="2"/>
+                <line num="22" type="stmt" count="1"/>
+                <line num="25" type="stmt" count="1"/>
+                <metrics loc="27" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentArticleResponse.php">
+                <class name="PresentArticleResponse" namespace="Bws\Interactor">
+                    <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+                </class>
+                <line num="26" type="method" name="__construct" crap="1" count="2"/>
+                <line num="28" type="stmt" count="2"/>
+                <line num="29" type="stmt" count="2"/>
+                <line num="30" type="stmt" count="2"/>
+                <line num="35" type="method" name="getCode" crap="1" count="2"/>
+                <line num="37" type="stmt" count="2"/>
+                <line num="43" type="method" name="getArticle" crap="1" count="1"/>
+                <line num="45" type="stmt" count="1"/>
+                <metrics loc="47" ncloc="31" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentArticles.php">
+                <class name="PresentArticles" namespace="Bws\Interactor">
+                    <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="21" coveredelements="21"/>
+                </class>
+                <line num="15" type="method" name="__construct" crap="1" count="2"/>
+                <line num="17" type="stmt" count="2"/>
+                <line num="18" type="stmt" count="2"/>
+                <line num="20" type="method" name="execute" crap="2" count="2"/>
+                <line num="22" type="stmt" count="2"/>
+                <line num="24" type="stmt" count="2"/>
+                <line num="25" type="stmt" count="2"/>
+                <line num="26" type="stmt" count="1"/>
+                <line num="27" type="stmt" count="1"/>
+                <line num="29" type="stmt" count="2"/>
+                <line num="38" type="method" name="buildDto" crap="2" count="1"/>
+                <line num="41" type="stmt" count="1"/>
+                <line num="42" type="stmt" count="1"/>
+                <line num="43" type="stmt" count="1"/>
+                <line num="44" type="stmt" count="1"/>
+                <line num="45" type="stmt" count="1"/>
+                <line num="46" type="stmt" count="1"/>
+                <line num="47" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <line num="50" type="stmt" count="1"/>
+                <line num="52" type="stmt" count="1"/>
+                <line num="55" type="stmt" count="1"/>
+                <metrics loc="54" ncloc="44" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="21" coveredelements="21"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentArticlesResponse.php">
+                <class name="PresentArticlesResponse" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+                </class>
+                <line num="9" type="method" name="__construct" crap="1" count="2"/>
+                <line num="11" type="stmt" count="2"/>
+                <line num="12" type="stmt" count="2"/>
+                <line num="17" type="method" name="getArticles" crap="1" count="2"/>
+                <line num="19" type="stmt" count="2"/>
+                <metrics loc="21" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentLogisticPartners.php">
+                <class name="PresentLogisticPartners" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+                </class>
+                <line num="14" type="method" name="__construct" crap="1" count="1"/>
+                <line num="16" type="stmt" count="1"/>
+                <line num="17" type="stmt" count="1"/>
+                <line num="19" type="method" name="execute" crap="2" count="1"/>
+                <line num="21" type="stmt" count="1"/>
+                <line num="22" type="stmt" count="1"/>
+                <line num="24" type="stmt" count="1"/>
+                <line num="25" type="stmt" count="1"/>
+                <line num="26" type="stmt" count="1"/>
+                <line num="28" type="stmt" count="1"/>
+                <metrics loc="30" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentLogisticPartnersResponse.php">
+                <class name="PresentLogisticPartnersResponse" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+                </class>
+                <line num="9" type="method" name="__construct" crap="1" count="1"/>
+                <line num="11" type="stmt" count="1"/>
+                <line num="12" type="stmt" count="1"/>
+                <line num="17" type="method" name="getLogisticPartners" crap="1" count="1"/>
+                <line num="19" type="stmt" count="1"/>
+                <metrics loc="21" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentPaymentMethods.php">
+                <class name="PresentPaymentMethods" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+                </class>
+                <line num="14" type="method" name="__construct" crap="1" count="1"/>
+                <line num="16" type="stmt" count="1"/>
+                <line num="17" type="stmt" count="1"/>
+                <line num="22" type="method" name="execute" crap="2" count="1"/>
+                <line num="24" type="stmt" count="1"/>
+                <line num="25" type="stmt" count="1"/>
+                <line num="27" type="stmt" count="1"/>
+                <line num="28" type="stmt" count="1"/>
+                <line num="29" type="stmt" count="1"/>
+                <line num="31" type="stmt" count="1"/>
+                <metrics loc="33" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PresentPaymentMethodsResponse.php">
+                <class name="PresentPaymentMethodsResponse" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+                </class>
+                <line num="9" type="method" name="__construct" crap="1" count="1"/>
+                <line num="11" type="stmt" count="1"/>
+                <line num="12" type="stmt" count="1"/>
+                <line num="17" type="method" name="getPaymentMethods" crap="1" count="1"/>
+                <line num="19" type="stmt" count="1"/>
+                <metrics loc="21" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/PriceFormatter.php">
+                <class name="PriceFormatter" namespace="Bws\Interactor">
+                    <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+                </class>
+                <line num="12" type="method" name="format" crap="1" count="3"/>
+                <line num="14" type="stmt" count="3"/>
+                <metrics loc="16" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SearchArticles.php">
+                <class name="SearchArticles" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
+                </class>
+                <line num="14" type="method" name="__construct" crap="1" count="2"/>
+                <line num="16" type="stmt" count="2"/>
+                <line num="17" type="stmt" count="2"/>
+                <line num="19" type="method" name="execute" crap="2" count="2"/>
+                <line num="21" type="stmt" count="2"/>
+                <line num="23" type="stmt" count="2"/>
+                <line num="24" type="stmt" count="1"/>
+                <line num="25" type="stmt" count="1"/>
+                <line num="26" type="stmt" count="1"/>
+                <line num="27" type="stmt" count="1"/>
+                <line num="28" type="stmt" count="1"/>
+                <line num="29" type="stmt" count="1"/>
+                <line num="30" type="stmt" count="1"/>
+                <line num="32" type="stmt" count="2"/>
+                <line num="34" type="stmt" count="2"/>
+                <metrics loc="36" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SearchArticlesRequest.php">
+                <class name="SearchArticlesRequest" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+                </class>
+                <line num="12" type="method" name="__construct" crap="1" count="2"/>
+                <line num="14" type="stmt" count="2"/>
+                <line num="15" type="stmt" count="2"/>
+                <line num="20" type="method" name="getBy" crap="1" count="2"/>
+                <line num="22" type="stmt" count="2"/>
+                <metrics loc="23" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SearchArticlesResponse.php">
+                <class name="SearchArticlesResponse" namespace="Bws\Interactor">
+                    <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+                </class>
+                <line num="12" type="method" name="__construct" crap="1" count="2"/>
+                <line num="14" type="stmt" count="2"/>
+                <line num="15" type="stmt" count="2"/>
+                <line num="17" type="method" name="getArticles" crap="1" count="2"/>
+                <line num="19" type="stmt" count="2"/>
+                <metrics loc="21" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SubmitOrderAsUnregisteredCustomer.php">
+                <class name="SubmitOrderAsUnregisteredCustomer" namespace="Bws\Interactor">
+                    <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="32" elements="37" coveredelements="37"/>
+                </class>
+                <line num="0" type="stmt" count="1"/>
+                <line num="41" type="method" name="__construct" crap="1" count="1"/>
+                <line num="47" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="1"/>
+                <line num="49" type="stmt" count="1"/>
+                <line num="50" type="stmt" count="1"/>
+                <line num="51" type="stmt" count="1"/>
+                <line num="58" type="method" name="execute" crap="1" count="1"/>
+                <line num="60" type="stmt" count="1"/>
+                <line num="61" type="stmt" count="1"/>
+                <line num="62" type="stmt" count="1"/>
+                <line num="63" type="stmt" count="1"/>
+                <line num="65" type="stmt" count="1"/>
+                <line num="73" type="method" name="saveInvoiceAddress" crap="1" count="1"/>
+                <line num="75" type="stmt" count="1"/>
+                <line num="76" type="stmt" count="1"/>
+                <line num="77" type="stmt" count="1"/>
+                <line num="78" type="stmt" count="1"/>
+                <line num="79" type="stmt" count="1"/>
+                <line num="80" type="stmt" count="1"/>
+                <line num="82" type="stmt" count="1"/>
+                <line num="84" type="stmt" count="1"/>
+                <line num="92" type="method" name="saveDeliveryAddress" crap="1" count="1"/>
+                <line num="94" type="stmt" count="1"/>
+                <line num="95" type="stmt" count="1"/>
+                <line num="96" type="stmt" count="1"/>
+                <line num="97" type="stmt" count="1"/>
+                <line num="98" type="stmt" count="1"/>
+                <line num="99" type="stmt" count="1"/>
+                <line num="101" type="stmt" count="1"/>
+                <line num="103" type="stmt" count="1"/>
+                <line num="113" type="method" name="saveOrder" crap="1" count="1"/>
+                <line num="115" type="stmt" count="1"/>
+                <line num="116" type="stmt" count="1"/>
+                <line num="117" type="stmt" count="1"/>
+                <line num="118" type="stmt" count="1"/>
+                <line num="120" type="stmt" count="1"/>
+                <line num="122" type="stmt" count="1"/>
+                <metrics loc="124" ncloc="84" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="32" elements="37" coveredelements="37"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SubmitOrderAsUnregisteredCustomerRequest.php">
+                <class name="SubmitOrderAsUnregisteredCustomerRequest" namespace="Bws\Interactor">
+                    <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+                </class>
+                <metrics loc="23" ncloc="23" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/SubmitOrderResponse.php">
+                <class name="SubmitOrderResponse" namespace="Bws\Interactor">
+                    <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+                </class>
+                <line num="29" type="method" name="__construct" crap="1" count="1"/>
+                <line num="31" type="stmt" count="1"/>
+                <line num="32" type="stmt" count="1"/>
+                <line num="33" type="stmt" count="1"/>
+                <line num="34" type="stmt" count="1"/>
+                <line num="39" type="method" name="getCode" crap="1" count="1"/>
+                <line num="41" type="stmt" count="1"/>
+                <line num="47" type="method" name="getMessage" crap="1" count="1"/>
+                <line num="49" type="stmt" count="1"/>
+                <line num="55" type="method" name="getOrderId" crap="1" count="1"/>
+                <line num="57" type="stmt" count="1"/>
+                <metrics loc="59" ncloc="36" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/ViewBasket.php">
+                <class name="ViewBasket" namespace="Bws\Interactor">
+                    <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="34" elements="38" coveredelements="38"/>
+                </class>
+                <line num="25" type="method" name="__construct" crap="1" count="4"/>
+                <line num="27" type="stmt" count="4"/>
+                <line num="28" type="stmt" count="4"/>
+                <line num="29" type="stmt" count="4"/>
+                <line num="36" type="method" name="execute" crap="4" count="4"/>
+                <line num="38" type="stmt" count="4"/>
+                <line num="39" type="stmt" count="1"/>
+                <line num="42" type="stmt" count="3"/>
+                <line num="44" type="stmt" count="3"/>
+                <line num="45" type="stmt" count="1"/>
+                <line num="48" type="stmt" count="2"/>
+                <line num="50" type="stmt" count="2"/>
+                <line num="51" type="stmt" count="1"/>
+                <line num="54" type="stmt" count="1"/>
+                <line num="62" type="method" name="buildResponseFromPositions" crap="1" count="1"/>
+                <line num="64" type="stmt" count="1"/>
+                <line num="65" type="stmt" count="1"/>
+                <line num="67" type="stmt" count="1"/>
+                <line num="69" type="stmt" count="1"/>
+                <line num="70" type="stmt" count="1"/>
+                <line num="71" type="stmt" count="1"/>
+                <line num="72" type="stmt" count="1"/>
+                <line num="73" type="stmt" count="1"/>
+                <line num="74" type="stmt" count="1"/>
+                <line num="75" type="stmt" count="1"/>
+                <line num="83" type="method" name="buildPositionsDtoAndCalculatePrices" crap="2" count="1"/>
+                <line num="86" type="stmt" count="1"/>
+                <line num="87" type="stmt" count="1"/>
+                <line num="88" type="stmt" count="1"/>
+                <line num="89" type="stmt" count="1"/>
+                <line num="90" type="stmt" count="1"/>
+                <line num="91" type="stmt" count="1"/>
+                <line num="92" type="stmt" count="1"/>
+                <line num="93" type="stmt" count="1"/>
+                <line num="94" type="stmt" count="1"/>
+                <line num="96" type="stmt" count="1"/>
+                <line num="97" type="stmt" count="1"/>
+                <line num="98" type="stmt" count="1"/>
+                <metrics loc="99" ncloc="73" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="34" elements="38" coveredelements="38"/>
+            </file>
+            <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Interactor/ViewBasketResponse.php">
+                <class name="ViewBasketResponse" namespace="Bws\Interactor">
+                    <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+                </class>
+                <line num="43" type="method" name="__construct" crap="1" count="4"/>
+                <line num="45" type="stmt" count="4"/>
+                <line num="46" type="stmt" count="4"/>
+                <line num="47" type="stmt" count="4"/>
+                <line num="48" type="stmt" count="4"/>
+                <line num="49" type="stmt" count="4"/>
+                <line num="50" type="stmt" count="4"/>
+                <line num="55" type="method" name="getCode" crap="1" count="4"/>
+                <line num="57" type="stmt" count="4"/>
+                <line num="63" type="method" name="getMessage" crap="1" count="1"/>
+                <line num="65" type="stmt" count="1"/>
+                <line num="71" type="method" name="getPositions" crap="1" count="2"/>
+                <line num="73" type="stmt" count="2"/>
+                <line num="79" type="method" name="getTotal" crap="1" count="2"/>
+                <line num="81" type="stmt" count="2"/>
+                <line num="87" type="method" name="getPositionCount" crap="1" count="2"/>
+                <line num="89" type="stmt" count="2"/>
+                <metrics loc="91" ncloc="54" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+            </file>
+        </package>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/ArticleRepository.php">
+            <metrics loc="32" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/BasketPositionRepository.php">
+            <line num="35" type="stmt" count="1"/>
+            <metrics loc="34" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/BasketRepository.php">
+            <line num="27" type="stmt" count="1"/>
+            <metrics loc="26" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/DeliveryAddressRepository.php">
+            <metrics loc="23" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/InvoiceAddressRepository.php">
+            <line num="24" type="stmt" count="1"/>
+            <metrics loc="23" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/LogisticPartnerRepository.php">
+            <metrics loc="18" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/OrderRepository.php">
+            <line num="24" type="stmt" count="1"/>
+            <metrics loc="23" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <file name="/Applications/XAMPP/xamppfiles/htdocs/shop/src/Bws/Repository/PaymentMethodRepository.php">
+            <line num="19" type="stmt" count="1"/>
+            <metrics loc="18" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
+        <metrics files="39" loc="2409" ncloc="1510" classes="31" methods="137" coveredmethods="137" conditionals="0" coveredconditionals="0" statements="369" coveredstatements="369" elements="506" coveredelements="480"/>
+    </project>
+</coverage>
