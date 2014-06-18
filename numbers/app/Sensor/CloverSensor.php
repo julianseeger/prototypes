@@ -44,6 +44,15 @@ class CloverSensor implements Sensor
             'coverage',
             ((float)$attributes['coveredelements'] / (float)$attributes['elements'])
         );
+        $metricsHub->addMetric(
+            $projectName,
+            $versionNumber,
+            '/',
+            'ncloc',
+            (int)$attributes['ncloc']
+        );
+
+
 
         foreach ($project->package as $package) {
             foreach ($package->file as $file) {

@@ -55,16 +55,20 @@
                                 {% endfor %}
                             ]
                         },
-                        yAxis: {
+                        yAxis: [
+                            {% for metricType in metricTypes %}
+                            {
                             title: {
-                                text: 'Value'
+                                text: '{{ metricType }}'
                             },
                             plotLines: [{
                                 value: 0,
                                 width: 1,
                                 color: '#808080'
                             }]
-                        },
+                        }{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                        ],
                         tooltip: {
                             valueSuffix: '°C'
                         },
@@ -78,9 +82,11 @@
                             {% for metricType in metricTypes %}
                             {
                                 name: '{{ metricType }}',
+                                type: 'spline',
+                                yAxis: {{ loop.index0 }},
                                 data: [
                                     {% for version, files in versions %}
-                                        {{ attribute(files|first, metricType)|number_format(2, '.', ',') }}
+                                        {{ attribute(files|first, metricType)|number_format(2, '.', '') }}
                                         {% if not loop.last %},{% endif %}
                                     {% endfor %}
                                 ]

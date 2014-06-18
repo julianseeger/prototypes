@@ -733,6 +733,6 @@
             <line num="19" type="stmt" count="1"/>
             <metrics loc="18" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </file>
-        <metrics files="39" loc="2409" ncloc="1510" classes="31" methods="137" coveredmethods="137" conditionals="0" coveredconditionals="0" statements="369" coveredstatements="369" elements="506" coveredelements="480"/>
+        <metrics files="39" loc="2409" ncloc="1460" classes="31" methods="137" coveredmethods="137" conditionals="0" coveredconditionals="0" statements="369" coveredstatements="369" elements="506" coveredelements="480"/>
     </project>
 </coverage>
